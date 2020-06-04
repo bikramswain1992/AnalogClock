@@ -1,4 +1,19 @@
-body{
-    margin: 0;
-    padding: 0;
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/clock.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+.clock .hour,
+.clock .min,
+.clock .sec{
+    position: absolute;
+}
+.hr, .mn, .sc{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 50%;
 }
